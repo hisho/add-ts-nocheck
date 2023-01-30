@@ -34,6 +34,8 @@
   "homepage": "https://github.com/hisho/add-ts-nocheck#readme",
   "devDependencies": {
     "@tsconfig/strictest": "^1.0.2",
+    "@types/glob": "^8.0.1",
+    "@types/minimist": "^1.2.2",
     "@types/node": "^18.11.18",
     "@types/prettier": "^2.7.2",
     "@types/rimraf": "^3.0.2",
@@ -47,5 +49,10 @@
   "volta": {
     "node": "18.13.0",
     "yarn": "1.22.19"
+  },
+  "dependencies": {
+    "glob": "^8.1.0",
+    "minimist": "^1.2.7",
+    "zod": "^3.20.2"
   }
 }
